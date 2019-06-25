@@ -19,8 +19,8 @@ int main(){
     while(ub-lb>1){
         
         int m = (lb+ub)/2;
-        if(p(m)) lb = m;
-        else ub = m;
+        //if(p(m)) lb = m;
+        //else ub = m;
         
         int cnt = 1;
         int sum = 0;
